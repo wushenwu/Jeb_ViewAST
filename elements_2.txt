@@ -1,0 +1,324 @@
+Running script D:\Soft_Android\jeb\plugins\ViewElement.py...
+scanning method: Lcom/workall/works/Util;->issdin(Landroid/content/Context;)Ljava/lang/String;
+Arguments Info:
+    jeb.api.ast.Definition@1d5633ac     Landroid/content/Context;   context                        same_level_1 :
+         jeb.api.ast.Identifier@2046e4b     context                        same_level_2 :
+ Body Info:
+jeb.api.ast.Block@3bb19e55
+    jeb.api.ast.Assignment@4704fd6b                            same_level_1 :
+         jeb.api.ast.Definition@3559fdc     I   v11                        same_level_2 :
+             jeb.api.ast.Identifier@2202dfcb     v11                        same_level_3 :
+         jeb.api.ast.Constant@15f6aee8     I   -1                        same_level_2 :
+     jeb.api.ast.Assignment@7579f698                            same_level_1 :
+         jeb.api.ast.Definition@5a7d3c94     Ljava/util/List;   v7                        same_level_2 :
+             jeb.api.ast.Identifier@6eb54c97     v7                        same_level_3 :
+         jeb.api.ast.Call@4e142e47     Landroid/content/pm/PackageManager;->getInstalledPackages(I)Ljava/util/List;                        same_level_2 :
+             jeb.api.ast.Method@74e3dc2b                            same_level_3 :
+             jeb.api.ast.Call@47c9d7bf     Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;                        same_level_3 :
+                 jeb.api.ast.Method@3dcea25                            same_level_4 :
+                 jeb.api.ast.Identifier@6c559a0f     context                        same_level_4 :
+             jeb.api.ast.Constant@fc04a7d     I   0                        same_level_3 :
+     jeb.api.ast.Assignment@6ba90462                            same_level_1 :
+         jeb.api.ast.Definition@2b6c7efa     Ljava/lang/String;   v0                        same_level_2 :
+             jeb.api.ast.Identifier@45360eec     v0                        same_level_3 :
+         jeb.api.ast.Constant@48a82795     Ljava/lang/String;   0                        same_level_2 :
+     jeb.api.ast.Definition@6b81a0f6     I   v1                        same_level_1 :
+         jeb.api.ast.Identifier@23d298d2     v1                        same_level_2 :
+     jeb.api.ast.ForStm@5ffba2ec     jeb.api.ast.Assignment@391b3ff5 jeb.api.ast.Predicate@e38240c jeb.api.ast.Assignment@6d242912 jeb.api.ast.Block@6f4a1a98                        same_level_1 :
+         jeb.api.ast.Assignment@f4e6413                            same_level_2 :
+             jeb.api.ast.Identifier@409929b2     v1                        same_level_3 :
+             jeb.api.ast.Constant@c39f40a     I   0                        same_level_3 :
+         jeb.api.ast.Predicate@3398a1cf     jeb.api.ast.Identifier@4f0a2553   <   jeb.api.ast.Call@6d53b8f9 jeb.api.ast.Identifier@11757663   <   jeb.api.ast.Call@7f30431c                        same_level_2 :
+             jeb.api.ast.Identifier@651c116b     v1                        same_level_3 :
+             jeb.api.ast.Call@15f8e941     Ljava/util/List;->size()I                        same_level_3 :
+                 jeb.api.ast.Method@2f0453f3                            same_level_4 :
+                 jeb.api.ast.Identifier@52d1cdac     v7                        same_level_4 :
+         jeb.api.ast.Assignment@574319d4                            same_level_2 :
+             jeb.api.ast.Identifier@5a3409c     v1                        same_level_3 :
+         jeb.api.ast.Block@8b51010     Block_size:  2                        same_level_2 :
+             jeb.api.ast.Assignment@54d51007                            same_level_3 :
+                 jeb.api.ast.Definition@1b172ef0     Ljava/lang/Object;   v6                        same_level_4 :
+                     jeb.api.ast.Identifier@24ba8fbb     v6                        same_level_5 :
+                 jeb.api.ast.Call@5813f603     Ljava/util/List;->get(I)Ljava/lang/Object;                        same_level_4 :
+                     jeb.api.ast.Method@7ad1235f                            same_level_5 :
+                     jeb.api.ast.Identifier@7568cf1     v7                        same_level_5 :
+                     jeb.api.ast.Identifier@77611cf7     v1                        same_level_5 :
+             jeb.api.ast.IfStm@30854ff6     IfStm_Branch_Size:  1                        same_level_3 :
+                 jeb.api.ast.Predicate@43bd4962     jeb.api.ast.Expression@703f74e0   ==   jeb.api.ast.Constant@f4648b4 jeb.api.ast.Expression@15264c55   ==   jeb.api.ast.Constant@3c79f1ca                        same_level_4 :
+                     jeb.api.ast.Expression@37ea1ad1     jeb.api.ast.InstanceField@ad4f770   &   jeb.api.ast.Constant@2d37569b                        same_level_5 :
+                         jeb.api.ast.InstanceField@5e331556     jeb.api.ast.InstanceField@3968b0d3 .flags                        same_level_6 :
+                             jeb.api.ast.InstanceField@14aaaff9     jeb.api.ast.Expression@33eb079 .applicationInfo                        same_level_7 :
+                                 jeb.api.ast.Expression@45619ced     None   (android.content.pm.PackageInfo)   jeb.api.ast.Identifier@39f352ba                        same_level_8 :
+                                     jeb.api.ast.Identifier@78e7e71a     v6                        same_level_9 :
+                                 jeb.api.ast.Field@e2c3d07     applicationInfo                        same_level_8 :
+                             jeb.api.ast.Field@47e35edb     flags                        same_level_7 :
+                         jeb.api.ast.Constant@6426a21f     I   1                        same_level_6 :
+                     jeb.api.ast.Constant@233e46b6     I   0                        same_level_5 :
+                 jeb.api.ast.Block@4c1593d3     Block_size:  4                        same_level_4 :
+                     jeb.api.ast.Assignment@11dd090c                            same_level_5 :
+                         jeb.api.ast.Definition@40ba7772     [B   v5                        same_level_6 :
+                             jeb.api.ast.Identifier@11e09225     v5                        same_level_7 :
+                         jeb.api.ast.Call@718b00c1     Ljava/lang/String;->getBytes()[B                        same_level_6 :
+                             jeb.api.ast.Method@867f295                            same_level_7 :
+                             jeb.api.ast.InstanceField@1b75150c     jeb.api.ast.Expression@e91ddfd .packageName                        same_level_7 :
+                                 jeb.api.ast.Expression@273549e6     None   (android.content.pm.PackageInfo)   jeb.api.ast.Identifier@10f1f4cf                        same_level_8 :
+                                     jeb.api.ast.Identifier@239f4ea8     v6                        same_level_9 :
+                                 jeb.api.ast.Field@23e10113     packageName                        same_level_8 :
+                     jeb.api.ast.Call@2e9606f0     Lcom/workall/works/Util;->toddd([B)Z                        same_level_5 :
+                         jeb.api.ast.Method@31ded861                            same_level_6 :
+                             jeb.api.ast.Definition@68ed3afc     [B   buffer                        same_level_7 :
+                                 jeb.api.ast.Identifier@432f576b     buffer                        same_level_8 :
+                             jeb.api.ast.Block@5d106878     Block_size:  12                        same_level_7 :
+                                 jeb.api.ast.Definition@1acaae6b     I   v5                        same_level_8 :
+                                     jeb.api.ast.Identifier@1b715d14     v5                        same_level_9 :
+                                 jeb.api.ast.Definition@225cc51e     I   v1                        same_level_8 :
+                                     jeb.api.ast.Identifier@7cd12a85     v1                        same_level_9 :
+                                 jeb.api.ast.Assignment@33a76a82                            same_level_8 :
+                                     jeb.api.ast.Definition@22af181f     I   v6                        same_level_9 :
+                                         jeb.api.ast.Identifier@669f5d61     v6                        same_level_10 :
+                                     jeb.api.ast.Constant@13efd635     I   4                        same_level_9 :
+                                 jeb.api.ast.TryStm@1b944db0     jeb.api.ast.Block@41a1c13d  catch count: 1 [ Ljava/lang/Exception;   v3 ]                        same_level_8 :
+                                     jeb.api.ast.Block@5d49e83d     Block_size:  4                        same_level_9 :
+                                         jeb.api.ast.Assignment@30fad3df                            same_level_10 :
+                                             jeb.api.ast.Definition@465d719e     I   v4                        same_level_11 :
+                                                 jeb.api.ast.Identifier@54c76168     v4                        same_level_12 :
+                                             jeb.api.ast.InstanceField@32452404     buffer .length                        same_level_11 :
+                                                 jeb.api.ast.Identifier@6cac8cf8     buffer                        same_level_12 :
+                                                 jeb.api.ast.Field@4150c172     length                        same_level_12 :
+                                         jeb.api.ast.Assignment@2ef33411                            same_level_10 :
+                                             jeb.api.ast.Identifier@350d40cf     v1                        same_level_11 :
+                                             jeb.api.ast.Identifier@3d4ec1da     v6                        same_level_11 :
+                                         jeb.api.ast.Assignment@7a52dc50                            same_level_10 :
+                                             jeb.api.ast.Identifier@4d362cb7     v5                        same_level_11 :
+                                             jeb.api.ast.Constant@126206e6     I   0                        same_level_11 :
+                                         jeb.api.ast.WhileStm@59e94561                            same_level_10 :
+                                             jeb.api.ast.Predicate@3535a250     None      jeb.api.ast.Constant@491a63d5 None      jeb.api.ast.Constant@4bcd0926                        same_level_11 :
+                                                 jeb.api.ast.Constant@581c9f73     Z   True                        same_level_12 :
+                                             jeb.api.ast.Block@40a38102     Block_size:  3                        same_level_11 :
+                                                 jeb.api.ast.Label@5a3d4608     label_8                        same_level_12 :
+                                                 jeb.api.ast.IfStm@791ae050     IfStm_Branch_Size:  1                        same_level_12 :
+                                                     jeb.api.ast.Predicate@45c10f07     jeb.api.ast.Expression@19363d2c   &&   jeb.api.ast.Expression@290b3504 jeb.api.ast.Expression@7bd4815   &&   jeb.api.ast.Expression@4a49d6d2                        same_level_13 :
+                                                         jeb.api.ast.Predicate@623e4dea     jeb.api.ast.Identifier@12edf7bc   <   jeb.api.ast.Identifier@7f7de814 jeb.api.ast.Identifier@7b065e6f   <   jeb.api.ast.Identifier@6bc70df8                        same_level_14 :
+                                                             jeb.api.ast.Identifier@16ea472b     v5                        same_level_15 :
+                                                             jeb.api.ast.Identifier@64730aa     v4                        same_level_15 :
+                                                         jeb.api.ast.Predicate@4f7bf32b     jeb.api.ast.Expression@1c809ff1   <=   jeb.api.ast.Identifier@58175055 jeb.api.ast.Expression@676af99d   <=   jeb.api.ast.Identifier@7718acf0                        same_level_14 :
+                                                             jeb.api.ast.Expression@6f7fcaf5     jeb.api.ast.Identifier@3d1e0c9a   +   jeb.api.ast.Identifier@1b48f379                        same_level_15 :
+                                                                 jeb.api.ast.Identifier@e499485     v5                        same_level_16 :
+                                                                 jeb.api.ast.Identifier@4071a087     v1                        same_level_16 :
+                                                             jeb.api.ast.Identifier@6cdd6726     v4                        same_level_15 :
+                                                     jeb.api.ast.Block@305282ff     Block_size:  6                        same_level_13 :
+                                                         jeb.api.ast.Assignment@72fdd5cc                            same_level_14 :
+                                                             jeb.api.ast.Definition@3f45368c     B   v0                        same_level_15 :
+                                                                 jeb.api.ast.Identifier@38269215     v0                        same_level_16 :
+                                                             jeb.api.ast.ArrayElt@1cc7aa94     TBD, not dealed with                        same_level_15 :
+                                                                 jeb.api.ast.Identifier@85f75     buffer                        same_level_16 :
+                                                                 jeb.api.ast.Expression@166ff8ae     jeb.api.ast.Identifier@1ad5664c   +   jeb.api.ast.Identifier@3be7ec88                        same_level_16 :
+                                                                     jeb.api.ast.Identifier@7956ef76     v5                        same_level_17 :
+                                                                     jeb.api.ast.Identifier@1015c27a     v1                        same_level_17 :
+                                                         jeb.api.ast.Assignment@21c33132                            same_level_14 :
+                                                             jeb.api.ast.ArrayElt@25440a2e     TBD, not dealed with                        same_level_15 :
+                                                                 jeb.api.ast.Identifier@6ba76caf     buffer                        same_level_16 :
+                                                                 jeb.api.ast.Expression@559f75b3     jeb.api.ast.Identifier@6d6d9493   +   jeb.api.ast.Identifier@68fde66a                        same_level_16 :
+                                                                     jeb.api.ast.Identifier@386f3dce     v5                        same_level_17 :
+                                                                     jeb.api.ast.Identifier@16f3e59d     v1                        same_level_17 :
+                                                             jeb.api.ast.ArrayElt@17bb32dc     buffer[v5]                        same_level_15 :
+                                                                 jeb.api.ast.Identifier@10f248f7     buffer                        same_level_16 :
+                                                                 jeb.api.ast.Identifier@5132966a     v5                        same_level_16 :
+                                                         jeb.api.ast.Assignment@58e45edc                            same_level_14 :
+                                                             jeb.api.ast.ArrayElt@1607bace     buffer[v5]                        same_level_15 :
+                                                                 jeb.api.ast.Identifier@14b0fd09     buffer                        same_level_16 :
+                                                                 jeb.api.ast.Identifier@5174b833     v5                        same_level_16 :
+                                                             jeb.api.ast.Identifier@2b9c1e7f     v0                        same_level_15 :
+                                                         jeb.api.ast.Assignment@661008                            same_level_14 :
+                                                             jeb.api.ast.Identifier@13adedb8     v1                        same_level_15 :
+                                                             jeb.api.ast.Constant@67ec7ade     I   -2                        same_level_15 :
+                                                         jeb.api.ast.IfStm@2cc8efba     IfStm_Branch_Size:  1                        same_level_14 :
+                                                             jeb.api.ast.Predicate@1c9e4c7b     jeb.api.ast.Identifier@6022a27d   <   jeb.api.ast.Constant@649c1e2d jeb.api.ast.Identifier@fc2883b   <   jeb.api.ast.Constant@61d1e02c                        same_level_15 :
+                                                                 jeb.api.ast.Identifier@14958721     v1                        same_level_16 :
+                                                                 jeb.api.ast.Constant@10fc8ee8     I   0                        same_level_16 :
+                                                             jeb.api.ast.Block@b644f9c     Block_size:  1                        same_level_15 :
+                                                                 jeb.api.ast.Break@65da0e5c                            same_level_16 :
+                                                         jeb.api.ast.Goto@5d4e3149                            same_level_14 :
+                                                             jeb.api.ast.Label@29b16fc6     label_23                        same_level_15 :
+                                                 jeb.api.ast.Goto@cdc3                            same_level_12 :
+                                                     jeb.api.ast.Label@359d8b71     label_9                        same_level_13 :
+                                     jeb.api.ast.Identifier@19f530f2     v3                        same_level_9 :
+                                     jeb.api.ast.Block@3b18b355     Block_size:  1                        same_level_9 :
+                                         jeb.api.ast.Return@3d701f20                            same_level_10 :
+                                             jeb.api.ast.Constant@646fcdfc     Z   False                        same_level_11 :
+                                 jeb.api.ast.Assignment@542d1323                            same_level_8 :
+                                     jeb.api.ast.Identifier@2ad180e8     v1                        same_level_9 :
+                                     jeb.api.ast.Identifier@1765138d     v6                        same_level_9 :
+                                 jeb.api.ast.Assignment@d7f3cb0                            same_level_8 :
+                                     jeb.api.ast.Identifier@31f78237     v5                        same_level_9 :
+                                     jeb.api.ast.Constant@17879221     I   2                        same_level_9 :
+                                 jeb.api.ast.Label@28410227     label_23                        same_level_8 :
+                                 jeb.api.ast.Assignment@5c2f3123                            same_level_8 :
+                                     jeb.api.ast.Identifier@5144e6ab     v5                        same_level_9 :
+                                 jeb.api.ast.Goto@7af97038                            same_level_8 :
+                                     jeb.api.ast.Label@5a09157a     label_8                        same_level_9 :
+                                 jeb.api.ast.Label@7f8a8131     label_9                        same_level_8 :
+                                 jeb.api.ast.Assignment@90d51d5                            same_level_8 :
+                                     jeb.api.ast.Definition@38c4987c     Z   v8                        same_level_9 :
+                                         jeb.api.ast.Identifier@2af4e8db     v8                        same_level_10 :
+                                     jeb.api.ast.Constant@1dc67bd     Z   True                        same_level_9 :
+                                 jeb.api.ast.Return@623c0daa                            same_level_8 :
+                                     jeb.api.ast.Identifier@7ea76ee9     v8                        same_level_9 :
+                         jeb.api.ast.Identifier@7398e3d6     v5                        same_level_6 :
+                     jeb.api.ast.Definition@111b9397     I   v3                        same_level_5 :
+                         jeb.api.ast.Identifier@13488d43     v3                        same_level_6 :
+                     jeb.api.ast.ForStm@56dd69e5     jeb.api.ast.Assignment@626fa6bb jeb.api.ast.Predicate@2fa5164a jeb.api.ast.Assignment@7850b468 jeb.api.ast.Block@45ff68c6                        same_level_5 :
+                         jeb.api.ast.Assignment@5a3a44bc                            same_level_6 :
+                             jeb.api.ast.Identifier@5daa0ef7     v3                        same_level_7 :
+                             jeb.api.ast.Constant@20a402de     I   0                        same_level_7 :
+                         jeb.api.ast.Predicate@1ea3f754     jeb.api.ast.Identifier@16b44f98   <   jeb.api.ast.InstanceField@1b64260f jeb.api.ast.Identifier@1b56654f   <   jeb.api.ast.InstanceField@1a4e3826                        same_level_6 :
+                             jeb.api.ast.Identifier@2e326c78     v3                        same_level_7 :
+                             jeb.api.ast.InstanceField@145c63ef     jeb.api.ast.StaticField@3c080036 .length                        same_level_7 :
+                                 jeb.api.ast.StaticField@576c8099                            same_level_8 :
+                                     jeb.api.ast.Field@6a8067a0     bb                        same_level_9 :
+                                 jeb.api.ast.Field@1d343204     length                        same_level_8 :
+                         jeb.api.ast.Assignment@61419824                            same_level_6 :
+                             jeb.api.ast.Identifier@529aa4dd     v3                        same_level_7 :
+                         jeb.api.ast.Block@3b4e7449     Block_size:  4                        same_level_6 :
+                             jeb.api.ast.Assignment@7d6c536                            same_level_7 :
+                                 jeb.api.ast.Definition@6abbfd50     I   v2                        same_level_8 :
+                                     jeb.api.ast.Identifier@146a43b4     v2                        same_level_9 :
+                                 jeb.api.ast.Constant@210e7d14     I   1                        same_level_8 :
+                             jeb.api.ast.Definition@4f2acf89     I   v4                        same_level_7 :
+                                 jeb.api.ast.Identifier@99b423b     v4                        same_level_8 :
+                             jeb.api.ast.ForStm@5baf78c1     jeb.api.ast.Assignment@2952b962 jeb.api.ast.Predicate@309d6d46 jeb.api.ast.Assignment@63c46bf4 jeb.api.ast.Block@430d7e3d                        same_level_7 :
+                                 jeb.api.ast.Assignment@7f285697                            same_level_8 :
+                                     jeb.api.ast.Identifier@2484f369     v4                        same_level_9 :
+                                     jeb.api.ast.Constant@645fa7c6     I   0                        same_level_9 :
+                                 jeb.api.ast.Predicate@4c0bc1e6     jeb.api.ast.Identifier@71aaaa1e   <   jeb.api.ast.InstanceField@72b610f9 jeb.api.ast.Identifier@6b4ef8fe   <   jeb.api.ast.InstanceField@79d80080                        same_level_8 :
+                                     jeb.api.ast.Identifier@5d86bfff     v4                        same_level_9 :
+                                     jeb.api.ast.InstanceField@1ff55d6e     jeb.api.ast.ArrayElt@360df66 .length                        same_level_9 :
+                                         jeb.api.ast.ArrayElt@3a85038a     TBD, not dealed with                        same_level_10 :
+                                             jeb.api.ast.StaticField@52943a62                            same_level_11 :
+                                                 jeb.api.ast.Field@673f0373     bb                        same_level_12 :
+                                             jeb.api.ast.Identifier@62a16b1d     v3                        same_level_11 :
+                                         jeb.api.ast.Field@702abd90     length                        same_level_10 :
+                                 jeb.api.ast.Assignment@39ecedd                            same_level_8 :
+                                     jeb.api.ast.Identifier@1ca57146     v4                        same_level_9 :
+                                 jeb.api.ast.Block@75b5084c     Block_size:  1                        same_level_8 :
+                                     jeb.api.ast.IfStm@50d6ed57     IfStm_Branch_Size:  1                        same_level_9 :
+                                         jeb.api.ast.Predicate@25cb29b6     jeb.api.ast.Expression@12d35308   &&   jeb.api.ast.Expression@4f79de76 jeb.api.ast.Expression@28222e9b   &&   jeb.api.ast.Expression@545834b0                        same_level_10 :
+                                             jeb.api.ast.Predicate@5c1b7620     jeb.api.ast.Identifier@5d9089bb   <   jeb.api.ast.InstanceField@64ff3264 jeb.api.ast.Identifier@711767ff   <   jeb.api.ast.InstanceField@76baa58b                        same_level_11 :
+                                                 jeb.api.ast.Identifier@2f3e37b6     v4                        same_level_12 :
+                                                 jeb.api.ast.InstanceField@324f5c27     v5 .length                        same_level_12 :
+                                                     jeb.api.ast.Identifier@782dfd0e     v5                        same_level_13 :
+                                                     jeb.api.ast.Field@5b98897d     length                        same_level_13 :
+                                             jeb.api.ast.Predicate@4d234cd4     jeb.api.ast.ArrayElt@5a710df3   !=   jeb.api.ast.ArrayElt@45bda4a1 jeb.api.ast.ArrayElt@6ce02647   !=   jeb.api.ast.ArrayElt@3bf282e3                        same_level_11 :
+                                                 jeb.api.ast.ArrayElt@69be0efb     v5[v4]                        same_level_12 :
+                                                     jeb.api.ast.Identifier@410e37c1     v5                        same_level_13 :
+                                                     jeb.api.ast.Identifier@2cb1f3b9     v4                        same_level_13 :
+                                                 jeb.api.ast.ArrayElt@3fb8956     TBD, not dealed with                        same_level_12 :
+                                                     jeb.api.ast.ArrayElt@1aab8604     TBD, not dealed with                        same_level_13 :
+                                                         jeb.api.ast.StaticField@2a2b0aaf                            same_level_14 :
+                                                             jeb.api.ast.Field@9a41868     bb                        same_level_15 :
+                                                         jeb.api.ast.Identifier@1097a658     v3                        same_level_14 :
+                                                     jeb.api.ast.Identifier@629bb897     v4                        same_level_13 :
+                                         jeb.api.ast.Block@4b559bf4     Block_size:  2                        same_level_10 :
+                                             jeb.api.ast.Assignment@4994c8b4                            same_level_11 :
+                                                 jeb.api.ast.Identifier@641c12b8     v2                        same_level_12 :
+                                                 jeb.api.ast.Constant@5b7c51ac     I   0                        same_level_12 :
+                                             jeb.api.ast.Break@3c11fb0c                            same_level_11 :
+                             jeb.api.ast.IfStm@53af4552     IfStm_Branch_Size:  1                        same_level_7 :
+                                 jeb.api.ast.Predicate@5722144d     jeb.api.ast.Identifier@6eeade34   !=   jeb.api.ast.Constant@5d90817e jeb.api.ast.Identifier@743cca4b   !=   jeb.api.ast.Constant@33fb28fd                        same_level_8 :
+                                     jeb.api.ast.Identifier@bd85bc8     v2                        same_level_9 :
+                                     jeb.api.ast.Constant@521aa0bc     I   0                        same_level_9 :
+                                 jeb.api.ast.Block@40664626     Block_size:  1                        same_level_8 :
+                                     jeb.api.ast.Assignment@2ab02217                            same_level_9 :
+                                         jeb.api.ast.Identifier@63ff2a92     v0                        same_level_10 :
+                                         jeb.api.ast.Expression@64e76911     jeb.api.ast.Expression@164254dd   +   jeb.api.ast.Constant@3dc96c98                        same_level_10 :
+                                             jeb.api.ast.Expression@27787a09     jeb.api.ast.Call@78083016   +   jeb.api.ast.Expression@7ce87776                        same_level_11 :
+                                                 jeb.api.ast.Call@a3369df     Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;                        same_level_12 :
+                                                     jeb.api.ast.Method@6e7fe2a2                            same_level_13 :
+                                                     jeb.api.ast.Identifier@574ee7fb     v0                        same_level_13 :
+                                                 jeb.api.ast.Expression@68a269a3     jeb.api.ast.Identifier@79ce88f9   +   jeb.api.ast.Constant@68351f90                        same_level_12 :
+                                                     jeb.api.ast.Identifier@48e44c52     v3                        same_level_13 :
+                                                     jeb.api.ast.Constant@3370db9c     I   1                        same_level_13 :
+                                             jeb.api.ast.Constant@7e7d459a     Ljava/lang/String;   ,                        same_level_11 :
+     jeb.api.ast.IfStm@149110db     IfStm_Branch_Size:  8                        same_level_1 :
+         jeb.api.ast.Predicate@218885ee     jeb.api.ast.Call@3f408bd8   !=   jeb.api.ast.Identifier@2b85483f jeb.api.ast.Call@370e825c   !=   jeb.api.ast.Identifier@524cd6a6                        same_level_2 :
+             jeb.api.ast.Call@6969997c     Ljava/lang/String;->indexOf(Ljava/lang/String;)I                        same_level_3 :
+                 jeb.api.ast.Method@682cf0de                            same_level_4 :
+                 jeb.api.ast.Identifier@2b7383e5     v0                        same_level_4 :
+                 jeb.api.ast.Constant@1f3e99cb     Ljava/lang/String;   1                        same_level_4 :
+             jeb.api.ast.Identifier@3a395129     v11                        same_level_3 :
+         jeb.api.ast.Predicate@359cfcb0     jeb.api.ast.Call@2473d4d   !=   jeb.api.ast.Identifier@69dc1c0f jeb.api.ast.Call@199ca804   !=   jeb.api.ast.Identifier@4b37aefb                        same_level_2 :
+             jeb.api.ast.Call@70214f85     Ljava/lang/String;->indexOf(Ljava/lang/String;)I                        same_level_3 :
+                 jeb.api.ast.Method@791419ea                            same_level_4 :
+                 jeb.api.ast.Identifier@5344244     v0                        same_level_4 :
+                 jeb.api.ast.Constant@7302646f     Ljava/lang/String;   7                        same_level_4 :
+             jeb.api.ast.Identifier@92540ed     v11                        same_level_3 :
+         jeb.api.ast.Predicate@5027c36a     jeb.api.ast.Call@77268d48   !=   jeb.api.ast.Identifier@17e7bedf jeb.api.ast.Call@3466a6e6   !=   jeb.api.ast.Identifier@5a340f93                        same_level_2 :
+             jeb.api.ast.Call@193b8550     Ljava/lang/String;->indexOf(Ljava/lang/String;)I                        same_level_3 :
+                 jeb.api.ast.Method@3380d1ee                            same_level_4 :
+                 jeb.api.ast.Identifier@32d000ee     v0                        same_level_4 :
+                 jeb.api.ast.Constant@4862c9b0     Ljava/lang/String;   4                        same_level_4 :
+             jeb.api.ast.Identifier@db6d4e9     v11                        same_level_3 :
+         jeb.api.ast.Predicate@380c6b10     jeb.api.ast.Call@ae9cb8f   !=   jeb.api.ast.Identifier@5498ac2b jeb.api.ast.Call@6fb22bcd   !=   jeb.api.ast.Identifier@34bd99c0                        same_level_2 :
+             jeb.api.ast.Call@704c996b     Ljava/lang/String;->indexOf(Ljava/lang/String;)I                        same_level_3 :
+                 jeb.api.ast.Method@61249abd                            same_level_4 :
+                 jeb.api.ast.Identifier@1f362917     v0                        same_level_4 :
+                 jeb.api.ast.Constant@479dc0a8     Ljava/lang/String;   6                        same_level_4 :
+             jeb.api.ast.Identifier@530e9ef1     v11                        same_level_3 :
+         jeb.api.ast.Predicate@163a075f     jeb.api.ast.Call@38eaea1e   !=   jeb.api.ast.Identifier@115be52b jeb.api.ast.Call@360518e7   !=   jeb.api.ast.Identifier@70c3e187                        same_level_2 :
+             jeb.api.ast.Call@1f965f9b     Ljava/lang/String;->indexOf(Ljava/lang/String;)I                        same_level_3 :
+                 jeb.api.ast.Method@51aa93ff                            same_level_4 :
+                 jeb.api.ast.Identifier@4f767b0d     v0                        same_level_4 :
+                 jeb.api.ast.Constant@205664bd     Ljava/lang/String;   2                        same_level_4 :
+             jeb.api.ast.Identifier@d919dab     v11                        same_level_3 :
+         jeb.api.ast.Predicate@8a1c28d     jeb.api.ast.Call@74f37e87   !=   jeb.api.ast.Identifier@67939f28 jeb.api.ast.Call@666e3ab4   !=   jeb.api.ast.Identifier@60dd295e                        same_level_2 :
+             jeb.api.ast.Call@fb56484     Ljava/lang/String;->indexOf(Ljava/lang/String;)I                        same_level_3 :
+                 jeb.api.ast.Method@74a4d085                            same_level_4 :
+                 jeb.api.ast.Identifier@6308ff3f     v0                        same_level_4 :
+                 jeb.api.ast.Constant@6a16bdd9     Ljava/lang/String;   3                        same_level_4 :
+             jeb.api.ast.Identifier@4e23755b     v11                        same_level_3 :
+         jeb.api.ast.Predicate@1c51a4e2     jeb.api.ast.Call@38845150   !=   jeb.api.ast.Identifier@6723dbec jeb.api.ast.Call@32fff3fe   !=   jeb.api.ast.Identifier@231837f7                        same_level_2 :
+             jeb.api.ast.Call@390cfc15     Ljava/lang/String;->indexOf(Ljava/lang/String;)I                        same_level_3 :
+                 jeb.api.ast.Method@4089ac63                            same_level_4 :
+                 jeb.api.ast.Identifier@d24d78f     v0                        same_level_4 :
+                 jeb.api.ast.Constant@6fe1fe53     Ljava/lang/String;   5                        same_level_4 :
+             jeb.api.ast.Identifier@31d34bee     v11                        same_level_3 :
+         jeb.api.ast.Predicate@3cb40303     jeb.api.ast.Call@170733b5   !=   jeb.api.ast.Identifier@77744460 jeb.api.ast.Call@5cd3fd5b   !=   jeb.api.ast.Identifier@40e341d9                        same_level_2 :
+             jeb.api.ast.Call@6e5758eb     Ljava/lang/String;->indexOf(Ljava/lang/String;)I                        same_level_3 :
+                 jeb.api.ast.Method@782f4d01                            same_level_4 :
+                 jeb.api.ast.Identifier@22183654     v0                        same_level_4 :
+                 jeb.api.ast.Constant@76dca2fc     Ljava/lang/String;   8                        same_level_4 :
+             jeb.api.ast.Identifier@6728b75c     v11                        same_level_3 :
+         jeb.api.ast.Block@65eda9fd     Block_size:  1                        same_level_2 :
+             jeb.api.ast.Assignment@6a49982                            same_level_3 :
+                 jeb.api.ast.Identifier@15fc00e8     v0                        same_level_4 :
+                 jeb.api.ast.Constant@37ccc75c     Ljava/lang/String;   1                        same_level_4 :
+         jeb.api.ast.Block@3f663219     Block_size:  1                        same_level_2 :
+             jeb.api.ast.Assignment@1dacc4fe                            same_level_3 :
+                 jeb.api.ast.Identifier@68a27ce3     v0                        same_level_4 :
+                 jeb.api.ast.Constant@3985b08c     Ljava/lang/String;   7                        same_level_4 :
+         jeb.api.ast.Block@37fdbb5f     Block_size:  1                        same_level_2 :
+             jeb.api.ast.Assignment@37b32a6c                            same_level_3 :
+                 jeb.api.ast.Identifier@23a6fdc6     v0                        same_level_4 :
+                 jeb.api.ast.Constant@79db9dae     Ljava/lang/String;   4                        same_level_4 :
+         jeb.api.ast.Block@5de14ebd     Block_size:  1                        same_level_2 :
+             jeb.api.ast.Assignment@73afff27                            same_level_3 :
+                 jeb.api.ast.Identifier@67f37459     v0                        same_level_4 :
+                 jeb.api.ast.Constant@4260a3e4     Ljava/lang/String;   6                        same_level_4 :
+         jeb.api.ast.Block@152389b3     Block_size:  1                        same_level_2 :
+             jeb.api.ast.Assignment@19791af7                            same_level_3 :
+                 jeb.api.ast.Identifier@65d4f43d     v0                        same_level_4 :
+                 jeb.api.ast.Constant@226c14e0     Ljava/lang/String;   2                        same_level_4 :
+         jeb.api.ast.Block@2b0b6f0f     Block_size:  1                        same_level_2 :
+             jeb.api.ast.Assignment@7a74663b                            same_level_3 :
+                 jeb.api.ast.Identifier@38431054     v0                        same_level_4 :
+                 jeb.api.ast.Constant@7acad8a8     Ljava/lang/String;   3                        same_level_4 :
+         jeb.api.ast.Block@53d54935     Block_size:  1                        same_level_2 :
+             jeb.api.ast.Assignment@73b422ab                            same_level_3 :
+                 jeb.api.ast.Identifier@5f17bbed     v0                        same_level_4 :
+                 jeb.api.ast.Constant@18069d0d     Ljava/lang/String;   5                        same_level_4 :
+         jeb.api.ast.Block@61e3e3d9     Block_size:  1                        same_level_2 :
+             jeb.api.ast.Assignment@33903434                            same_level_3 :
+                 jeb.api.ast.Identifier@513a3978     v0                        same_level_4 :
+                 jeb.api.ast.Constant@7df838a7     Ljava/lang/String;   8                        same_level_4 :
+     jeb.api.ast.Return@37bf1ea                            same_level_1 :
+         jeb.api.ast.Identifier@31784425     v0                        same_level_2 :
