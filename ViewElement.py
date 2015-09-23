@@ -8,6 +8,7 @@ from jeb.api.dex import Dex
 from jeb.api.ast import Class, Field, Method, Call, Constant, StaticField, NewArray, Assignment, InstanceField, Identifier, Definition, Block, IfStm, Predicate, New, Return, Expression, ArrayElt, WhileStm, DoWhileStm, SwitchStm, Label, Continue, Break, Goto, ForStm, TryStm
 #from jeb.api.ast import *
 
+#initial script is from http://drops.wooyun.org/mobile/6665, say thanks
 class ViewElement(IScript):
     #thz are just stub proxy, used for function ptr
     def getInt(self, element):
