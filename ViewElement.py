@@ -19,6 +19,12 @@ class ViewElement(IScript):
         return element.getByte()
     def getString(self, element):
         return element.getString()
+    def getChar(self, element):
+        return element.getChar()
+    def getFloat(self, element):
+        return element.getFloat()
+    def getLong(self, element):
+        return element.getLong()
 
     def run(self, j):
         self.instance = j
@@ -29,6 +35,9 @@ class ViewElement(IScript):
             'I' : self.getInt,
             'Z' : self.getBoolean,
             'B' : self.getByte,
+            'C' : self.getChar,
+            'F' : self.getFloat,
+            'L' : self.getLong,
             'Ljava/lang/String;' : self.getString,
             #others to be done
         }
@@ -41,14 +50,18 @@ class ViewElement(IScript):
         print 'Arguments Info:'
         l_Arg = currentMethod.getParameters()
         for arg in range(len(l_Arg)):
-            self.viewElement(l_Arg[arg], 1)
+            self.viewElement(l_Arg[arg], 0)
             
         #Body
         print 'Body Info:'
         body = currentMethod.getBody()
+        self.viewElement(body, 0)
+        '''
+        body = currentMethod.getBody()
         self.instance.print(repr(body))
         for i in range(body.size()):
             self.viewElement(body.get(i),1)
+        '''
             
     def getConstantValue(self, element):
         self_element = element
@@ -118,7 +131,15 @@ class ViewElement(IScript):
         '''
         if isinstance(element, Call):
             flgHit = True
-            print element.getMethod().getSignature(),
+            print element.getMethod().getSignature() + ' [ ',
+            args = element.getArguments()
+            for arg in args:
+                if isinstance(arg, Constant):
+                    ret = self.getConstantValue(arg)
+                    print '(const_params ', ret[0], ' ', ret[1], '), ',
+                else:
+                    print arg,
+            print ']',
             #return
         
         '''
@@ -223,7 +244,7 @@ class ViewElement(IScript):
                 #seem not necessary, bkz the two Identifier will just follow 
                 print ary.getName() + '[' + index.getName() + ']',
             elif isinstance(ary, Identifier) and isinstance(index, Constant):
-                print ary.getName() + '[' + index.getInt() + ']',
+                print ary.getName() + '[' + str(index.getInt()) + ']',
             else:
                 flgHit = False
                 
